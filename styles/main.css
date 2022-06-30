@@ -8,11 +8,21 @@ footer {
 }
 
 header {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	left: 0;
 	width: 100%;
 	background-color: aqua;
+}
+
+.main {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+
+.guestList_container {
+    border: 2px solid purple;
 }
 
 .footer_info {
@@ -24,8 +34,7 @@ header {
 }
 
 .main {
-	margin-top: 10%;
-    margin-bottom: 10%;
+
 }
 
 .main_park_container {
@@ -33,10 +42,12 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 2px dotted blue;
+    /* border: 2px dotted blue; */
     height: 692px;
+    width: 100%;
 }
 .park_list {
     border: 2px solid black;
     height: 300px;
+    width: 30%;
 }
