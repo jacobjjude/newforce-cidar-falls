@@ -164,3 +164,19 @@ export const database = {
 	],
 	parkGuests: guestList
 };
+
+export const getParkAreas = () => {
+	return database.parkAreas.map((area) => ({ ...area }));
+};
+
+export const getServices = () => {
+	return database.services.map((service) => ({ ...service }));
+};
+
+export const getOffers = () => {
+	return database.offer.map((offer) => ({ ...offer }));
+};
+
+export const getParkGuests = () => {
+	return database.parkGuests.map((guest) => ({ ...guest }));
+};

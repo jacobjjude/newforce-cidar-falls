@@ -1,0 +1,42 @@
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-color: aqua;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: aqua;
+}
+
+.footer_info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.main {
+	margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.main_park_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px dotted blue;
+    height: 692px;
+}
+.park_list {
+    border: 2px solid black;
+    height: 300px;
+}
