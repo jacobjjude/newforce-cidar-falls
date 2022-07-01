@@ -13,7 +13,7 @@ export const areaNames = () => {
 		const filteredOffer = filterOfferByPark(area.id);
 		const filteredService = grabServiceName(filteredOffer);
 		htmlString += `<div class="main_park_id--${area.id} park_list">
-        <h2>${area.name}</h2>`
+        <h2 class="main_area_h2"><img class="park_list_img" src="./images/${area.id}.jpg"></img>${area.name}</h2>`
 		htmlString += '<ul>';
 		for (const service of filteredService) {
 			htmlString += `<li>${service}</li>`;
