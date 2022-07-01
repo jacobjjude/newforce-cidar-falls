@@ -115,7 +115,7 @@ const rollGuestName = () => {
 };
 
 const rollNumGuests = () => {
-	let numOfGuests = Math.floor(Math.random() * (31) + 30);
+	let numOfGuests = Math.floor(Math.random() * 2 + 25);
 	return numOfGuests;
 };
 

@@ -30,7 +30,7 @@ header {
 .main {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 130px;
+	margin-top: 100px;
 }
 
 .guestList_container {
@@ -46,6 +46,8 @@ header {
 }
 
 .main {
+	display: flex;
+	flex-direction: column;
 }
 
 .main_park_container {
@@ -55,7 +57,7 @@ header {
 	justify-content: space-evenly;
 	/* border: 2px dotted blue; */
 	height: 692px;
-	width: 100%;
+	width: 70%;
 	align-items: space-evenly;
 }
 .park_list {
@@ -67,36 +69,52 @@ header {
 	padding: 8px;
 	box-shadow: 5px 5px 5px #696969;
 	background-color: #ddbea9;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 .guestList_container {
 	box-shadow: 5px 5px 5px #696969;
 	padding: 8px;
 	background-color: #ddbea9;
+	width: 20%;
+    border-radius: 25px;
 }
 
 .main_area_h2 {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 #logo {
-	height: 80px;
-	width: 90px;
+	height: 70px;
+	width: 80px;
 	margin: 10px;
+	margin-left: 30px;
 	border-radius: 50px;
 }
 
 ul {
-    list-style: none;
-    align-self: center;
+	list-style: none;
+	align-self: center;
 }
 
 .park_list_img {
-    height: 120px;
-    width: 120px;
-    border-radius: 25px;
-    margin-right: 25px;
-    box-shadow: 5px 5px 5px #696969;
+	height: 100px;
+	width: 100px;
+	border-radius: 25px;
+	margin-right: 25px;
+	box-shadow: 5px 5px 5px #696969;
+}
 
+.main_services_list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.park_and_guest_list {
+	display: flex;
+	justify-content: space-evenly;
 }
